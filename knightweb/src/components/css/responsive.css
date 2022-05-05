@@ -1,0 +1,257 @@
+
+@media(max-width: 1166px){
+   
+    .border-b{
+        padding: 15px 52px;
+    }
+    .million-box{
+        padding: 15px;
+        height: 400px;
+    }
+    .million-box > span{
+        font-size: 15px;
+    }
+    .million-box > h3{
+        font-size: 20px;
+    }
+}
+@media(max-width: 992px){
+   .header-c3{
+       display: none;
+   }
+   .border-b{
+       padding: 10px 30px;
+   }
+    .toggle-slide-right {
+        display: block;
+    }
+    .burger-area {
+        display: block;
+    }
+    .menu-list2 > li > a {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .menu-list-d{
+        display: none;
+    }
+    .menu-list > li {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .menu-list > li > a {
+        font-size: 12px;
+    }
+    .banner-content {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .top-cractor-img{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .row-r{
+        flex-flow: column-reverse;
+    }
+    .charactor-img {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .socialbanner {
+        margin-top: 60px;
+    }
+    .socialbnrlist {
+        justify-content: center;
+    }
+    #banner-sec{
+        padding-bottom: 60px;
+    }
+    .scroll-img {
+        position: absolute;
+        left: 48%;
+        margin-top: 20px;
+    }
+    .million-box{
+        padding: 15px;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .token-img{
+        text-align: center;
+    }
+    .passive-content{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .connect-mobile > a{
+        display: inline-block;
+        font-size: 16px;
+        color: #fff;
+        padding: 6px 20px;
+        border: 1px solid #fff;
+        background-color: #164b6a;
+        border-radius: 32px;
+        vertical-align: middle;
+        margin-top: 15px;
+    }
+   
+}
+@media(max-width: 767px){
+    .menu-list2 > li > a {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .wrp-trade-total{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .trade-totalbox {
+        margin-left: 0px;
+    }
+    .trade-section{
+        text-align: center;
+    }
+}
+@media(max-width: 640px){
+    .logo-box > a > img{
+        width: 130px;
+    }
+    .btn-lightpaper{
+        margin-top: 30px;
+    }
+    .banner-content > h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .banner-content > p {
+        font-size: 14px;
+        color: #fff;
+        margin-top: 10px;
+    }
+  
+    #banner-sec{
+        padding-bottom: 40px;
+        padding-top: 65px;
+        background-size: cover;
+    }
+    .btn-banner > a{
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .btn-banner{
+        margin-top: 40px;
+    }
+    .banner-content > span{
+        font-size: 18px;
+    }
+    #million-sec{
+        background-size: cover;
+        padding: 40px 0px 60px 0px;
+    }
+    .million-content > h3,.trade-content > h3,.passive-content > h3,.head-lightpaper > h3{
+        font-size: 24px;
+    }
+    .passive-content{
+        margin-top: 35px;
+    }
+    .btn-explore > a{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .trade-content{
+        text-align: center;
+    }
+    .btn-explore{
+        margin-top: 40px;
+    }
+    #lightpaper{
+        padding: 60px 0px 40px 0px;
+        background-size: cover;
+    }
+    .social-c-right{
+        margin-top: 30px;
+    }
+   
+    .footer-social-wrp{
+        padding: 30px 30px 0px 30px;
+        display: inherit;
+        text-align: center;
+    }
+    .passive-content > p{
+        font-size: 14px;
+    }
+    .trade-content > p > br{
+        display: none;
+    }
+    .trade-content > p{
+        font-size: 14px;
+    }
+    .btn-trades > a{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    #tokenomic-sec{
+        padding: 60px 0px 60px 0px;
+        background-size: cover;
+    }
+    .head-lightpaper > p{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .head-lightpaper > p > br{
+        display: none;
+    }
+    .trade-totalbox > h3{
+        font-size: 16px;
+    }
+    .btn-trades{
+        margin-top: 40px;
+    }
+    .million-content{
+        padding-bottom: 10px;
+    }
+    .million-box > p{
+        font-size: 14px;
+    }
+    .trade-section{
+        padding-top: 60px;
+    }
+    .million-box > span{
+        font-size: 17px;
+    }
+    .million-box > h3{
+        margin-top: 20px;
+    }
+    .banner-content{
+        margin-top: 35px;
+    }
+    #shiva{
+        font-size: 18px;
+    }
+    .count{
+        font-size: 20px;
+    }
+   
+    .trade-totalbox{
+        width: 130px;
+        margin-bottom: 15px;
+    }
+    .border-b {
+        padding: 0px 15px;
+        margin-top: 5px;
+    }
+    
+    .burgers > img {
+        width: 24px;
+        margin-top: -8px;
+    }
+
+    
+}
+
+
+
+

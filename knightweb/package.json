@@ -1,0 +1,46 @@
+{
+  "name": "new-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "google-map-react": "^1.0.6",
+    "google-maps-react": "^2.0.2",
+    "immutable": "^3.8.2",
+    "jquery": "^3.6.0",
+    "react": "^16.5.0",
+    "react-alt-text": "^2.0.0",
+    "react-bootstrap": "^0.32.3",
+    "react-calendar": "^2.17.4",
+    "react-datepicker": "^1.6.0",
+    "react-day-picker": "^7.2.4",
+    "react-dom": "^16.5.0",
+    "react-dynamic-forms": "^1.0.1",
+    "react-fontawesome": "^1.6.1",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.0",
+    "react-modal": "^3.5.1",
+    "react-owl-carousel2": "^0.3.0",
+    "react-player": "^2.9.0",
+    "react-responsive-carousel": "^3.1.41",
+    "react-responsive-modal": "^3.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-slick": "^0.23.2",
+    "react-switch": "^3.0.4",
+    "react-textarea-autosize": "^7.0.4",
+    "react-toastify": "^4.4.0",
+    "react-video-js-player": "^1.1.1",
+    "reactstrap": "^6.4.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^6.4.0"
+  }
+}
