@@ -25,7 +25,7 @@
     "react-responsive-carousel": "^3.1.41",
     "react-responsive-modal": "^3.4.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^1.1.5",
     "react-slick": "^0.23.2",
     "react-switch": "^3.0.4",
     "react-textarea-autosize": "^7.0.4",

@@ -312,7 +312,7 @@ body.smr-open .slide-menu-right {
     background-repeat: no-repeat;
     height: auto;
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
 }
 
 .banner-content > span{
@@ -321,12 +321,13 @@ body.smr-open .slide-menu-right {
     letter-spacing: 1px;
 }
 .banner-content > h3{
-    font-family: 'Lemon/Milk Regular';
+    /* font-family: 'Lemon/Milk Regular'; */
     font-style: normal;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 54px;
+    /* text-transform: capitalize; */
+    font-size: 50px;
     line-height: 64px;
+    font-weight: bold;
 }
 .banner-content > p{
     font-size: 17px;
@@ -425,7 +426,7 @@ body.smr-open .slide-menu-right {
     background-color: #fff;
     padding: 20px;
     border-radius: 16px;
-    height: 380px;
+    /* height: 380px; */
     transition: 0.5s;
     box-shadow: 0px 2px 8px 2px #00000014;
 }
@@ -501,11 +502,11 @@ body.smr-open .slide-menu-right {
 
 /* tokenomic section css open here */
 #tokenomic-sec{
-    background-image: url(../images/Earn-Passive.gif);
+    background-image: url(../images/bg1.png);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 743px;
     padding: 150px 0px 150px 0px;
     position: relative;
 }
@@ -514,14 +515,16 @@ body.smr-open .slide-menu-right {
     font-size: 40px;
     font-weight: 600;
     color: #fff;
+    text-align: center;
 }
 .passive-content > p{
     color: #fff;
     font-size: 16px;
     margin-top: 20px;
+    text-align: center;
 }
 .passive-content{
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 .bh-white{
     background-color: #fff;
@@ -532,6 +535,7 @@ body.smr-open .slide-menu-right {
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 32px;
+   
     
 }
 
@@ -554,6 +558,7 @@ body.smr-open .slide-menu-right {
 }
 .btn-explore{
     margin-top: 50px;
+    text-align: center;
 }
 /* tokenomic section css closed here */
 
@@ -573,9 +578,9 @@ body.smr-open .slide-menu-right {
     text-align: center;
 }
 .head-lightpaper > h3{
-    font-weight: 600;
+    font-weight: bold;
     color: #002D56;
-    font-size: 40px;
+    font-size: 52px;
     
 }
 
@@ -670,7 +675,7 @@ a:hover {
 }
 .wrp-trade-total{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 30px;
 }
 .trade-totalbox:first-child{
@@ -686,19 +691,24 @@ a:hover {
     transition: 0.5s;
 }
 .trade-totalbox{
-    background-color: #002D56;
+    background-color: #fff;
     width: 150px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
     text-align: center;
+    opacity: 0.7;
 }
 .trade-totalbox > h3{
     font-weight: 600;
-    font-size: 18px;
-    color: #fff;
+    font-size: 20px;
+    color: #002D56;
 }
 .trade-totalbox > p{
-    font-size: 13px;
-    color: #fff;
+    font-size: 15px;
+    color: #002D56;
     margin-top: 5px;
 }
+
+#banner-sec .bag-1{background-color: #FFFFFF;display: inline-block;padding: 20px;border: 1px solid transparent;border-radius: 16px;opacity: 0.7;margin-top: 20px;}
+#banner-sec .bag-1 h6{color: #002D56;font-size: 21px;text-align: center;}
+#banner-sec .bag-1 p{color: #002D56;}
