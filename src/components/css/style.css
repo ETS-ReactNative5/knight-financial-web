@@ -116,8 +116,8 @@ p{
     vertical-align: middle;
 }
 .connectlist > li > p > a:hover{
-    color: #fccb20;
-    background-color: #000;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #25384af5, #3f4965d1);
     transition: 0.5s;
 }
 .connectlist > li > p > span{
@@ -226,7 +226,7 @@ p{
     margin-top: 13px;
 }
 .menu-list2 > li > a:hover{
-    color: #00d257;
+    color: #fccb20;
 }
 .menu-list2 > li > a > img{
     width: 18px;
@@ -295,7 +295,7 @@ body.smr-open .slide-menu-right {
 
 /* home page css open here */
 .top-cractor-img{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: -45px;
 }
 .top-cractor-img > img{
@@ -306,13 +306,13 @@ body.smr-open .slide-menu-right {
 }
 
 #banner-sec{
-    background-image: url(../images/Banner.gif);
+    background-image: url(../images/Banner.png);
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: auto;
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 65px;
 }
 
 .banner-content > span{
@@ -324,9 +324,8 @@ body.smr-open .slide-menu-right {
     font-family: 'Lemon/Milk Regular';
     font-style: normal;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 54px;
-    line-height: 64px;
+    font-size: 40px;
+    line-height: 50px;
 }
 .banner-content > p{
     font-size: 17px;
@@ -345,22 +344,23 @@ body.smr-open .slide-menu-right {
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
     transition: 0.5s;
-    background-color: #000;
-    color: #fccb20! important;
-    border-color: #000;
+    color: #ffffff! important;
+    border: 1px solid #fff;
+    background-image: linear-gradient(to right, #25384af5, #3f4965d1);
     
 }
 .buy-now{
     border: 1px solid #fff;
     margin-right: 15px;
     transition: .5s;
-    background-color: #344d62f2;
+    background-image: linear-gradient(to right, #25384af5, #3f4965d1);
+    
 }
 .btn-banner{
     margin-top: 50px;
 }
 .banner-content{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .socialbnrlist{
     margin: 0px;
@@ -389,13 +389,17 @@ body.smr-open .slide-menu-right {
 }
 
 /* million section css open here */
+
 #million-sec{
-    background-image: url(../images/Use-By-Million.gif);
+    background-image: url(../images/Use-By-Million.png);
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: auto;
     padding: 60px 0px 180px 0px;
+}
+.providing-wrp {
+    margin-bottom: 150px;
 }
 .million-content > h3{
     font-weight: 600;
@@ -425,7 +429,7 @@ body.smr-open .slide-menu-right {
     background-color: #fff;
     padding: 20px;
     border-radius: 16px;
-    height: 380px;
+    height: 250px;
     transition: 0.5s;
     box-shadow: 0px 2px 8px 2px #00000014;
 }
@@ -450,23 +454,24 @@ body.smr-open .slide-menu-right {
     font-weight: 700;
     font-size: 30px;
     color: #002D56;
-    margin-top: 40px;
+    margin-top: 20px;
    
 }
 .million-box > p{
     color: #002D56;
     font-size: 15px;
+    margin-top: 20px;
 }
 .trade-content > h3{
     font-size: 40px;
-    color: #002D56;
+    color: #ffffff;
     font-weight: 600;
 }
 .btn-trades{
     margin-top: 50px;
 }
 .btn-trades > a{
-    color: #002D56;
+    color: #ffffff;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 32px;
@@ -474,26 +479,35 @@ body.smr-open .slide-menu-right {
 }
 .trade-section{
     padding-top: 160px;
+    display: flex;
+    justify-content: right;
 }
 .btn-trades > a:hover{
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
     transition: 0.5s;
-    background-color: #000;
-    color: #fccb20! important;
-    border-color: #000;
+    background-image: linear-gradient(to right, #25384ac2, #3f4965a8);
+    color: #ffffff! important;
+    border: 1px solid #fff;
     
 }
 .trade-now{
-    border: 1px solid #002D56;
+    border: 1px solid #ffffff;
+    margin-right: 15px;
+    transition: .5s;
+    color: #fff! important;
+    background-image: linear-gradient(to right, #25384ac2, #3f4965a8);
+}
+.trade-now2{
+    border: 1px solid #ffffff;
     margin-right: 15px;
     transition: .5s;
     color: #fff! important;
     background-color: #002D56;
 }
 .trade-content > p{
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     margin-top: 20px;
 }
@@ -501,12 +515,12 @@ body.smr-open .slide-menu-right {
 
 /* tokenomic section css open here */
 #tokenomic-sec{
-    background-image: url(../images/Earn-Passive.gif);
+    background-image: url(../images/Earn-Passive.png);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    padding: 150px 0px 150px 0px;
+    padding: 13% 0% 36% 0%;
     position: relative;
 }
 
@@ -520,9 +534,9 @@ body.smr-open .slide-menu-right {
     font-size: 16px;
     margin-top: 20px;
 }
-.passive-content{
-    margin-top: 200px;
-}
+ .passive-content {
+     text-align: center;
+ }
 .bh-white{
     background-color: #fff;
     color: #000! important;
@@ -540,9 +554,9 @@ body.smr-open .slide-menu-right {
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
     transition: 0.5s;
-    background-color: #000;
-    color: #fccb20! important;
-    border-color: #000;
+    background-color: #3B208E;
+    color: #ffffff! important;
+    border: 1px solid #fff;
     
 }
 .explore-now{
@@ -550,10 +564,10 @@ body.smr-open .slide-menu-right {
     margin-right: 15px;
     transition: .5s;
     color: #fff! important;
-    background-color: #225fa7a6;
+    background-color: #3B208E;
 }
 .btn-explore{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 /* tokenomic section css closed here */
 
@@ -611,9 +625,9 @@ body.smr-open .slide-menu-right {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    background-color: #000! important;
-    color: #fccb20! important;
-    border-color: #000;
+    background-color: #002D56! important;
+    color: #ffffff! important;
+    border: 1px solid #fff;
 }
 .footer-social-list{
     margin: 0px;
@@ -670,7 +684,7 @@ a:hover {
 }
 .wrp-trade-total{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 30px;
 }
 .trade-totalbox:first-child{
@@ -686,19 +700,22 @@ a:hover {
     transition: 0.5s;
 }
 .trade-totalbox{
-    background-color: #002D56;
-    width: 150px;
-    padding: 15px;
-    border-radius: 8px;
+    background-image: url(../images/bnrbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 15px 15px 15px;
+    width: 121px;
+    height: 95px;
     text-align: center;
 }
 .trade-totalbox > h3{
-    font-weight: 600;
-    font-size: 18px;
-    color: #fff;
+    font-weight: 900;
+    font-size: 21px;
+    color: #002D56;
 }
 .trade-totalbox > p{
     font-size: 13px;
-    color: #fff;
+    color: #002D56;
     margin-top: 5px;
+    font-weight: 900;
 }

@@ -74,7 +74,7 @@ function changePickupStoreMenu(){
               <ul className="menu-list-d">
                       <li><a href="#">TRADE</a></li>
                       <li><a href="#">EARN</a></li>
-                      <li><a href="#">RAID</a></li>
+                      <li><a href="#">VAULT</a></li>
                       <li><a href="#">NFT</a></li>
                       
                   </ul>
@@ -88,7 +88,7 @@ function changePickupStoreMenu(){
                   <p><img src={connect} className="connect-img" /> <span>$19.754</span></p>
                 </li>
                 <li>
-                  <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="#">Connect Wallet</a></p>
+                  <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="#">Launch App</a></p>
                 </li>
               </ul>
             </div>
@@ -101,10 +101,10 @@ function changePickupStoreMenu(){
                 <li><a href="/">Home</a></li>
                     <li><a href="#about-section" className="close-menu">TRADE</a></li>
                     <li><a href="#about-section" className="close-menu">EARN</a></li>
-                    <li><a href="#about-section" className="close-menu">RAID</a></li>
+                    <li><a href="#about-section" className="close-menu">VAULT</a></li>
                     <li><a href="#about-section" className="close-menu">NFT</a></li>
                     <li>
-                      <p className="connect-mobile"> <a href="#">Connect Wallet</a></p>
+                      <p className="connect-mobile"> <a href="#">Launch App</a></p>
                   </li>
                 </ul>
               </div>
