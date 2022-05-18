@@ -515,12 +515,22 @@ body.smr-open .slide-menu-right {
 
 /* tokenomic section css open here */
 #tokenomic-sec{
-    background-image: url(../images/Earn-Passive.png);
+    background-image: url(../images/Earn-Passive01.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 900px;
     padding: 13% 0% 36% 0%;
+    position: relative;
+}
+#holder {
+    min-width: 320px;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.image_holder{
+    width: 16.66%;
     position: relative;
 }
 

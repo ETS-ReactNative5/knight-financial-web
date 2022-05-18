@@ -20,6 +20,10 @@
     .trade-totalbox {
         padding: 15px 15px 15px 15px;
     }
+    #tokenomic-sec{
+        background-size: cover;
+        height: 800px;
+    }
 }
 @media(max-width: 992px){
     .million-content > h3 {
@@ -51,9 +55,13 @@
     .passive-content > h3 {
         font-size: 30px;
     }
-    #tokenomic-sec {
-        padding: 0% 0% 33% 0%;
+    #tokenomic-sec{
+        background-size: cover;
+        height: 700px;
     }
+    /* #tokenomic-sec {
+        padding: 0% 0% 33% 0%;
+    } */
     .wrp-trade-total {
         justify-content: center;
     }
@@ -160,6 +168,10 @@
     .trade-section{
         text-align: center;
     }
+    #tokenomic-sec{
+        background-size: cover;
+        height: 650px;
+    }
 }
 @media(max-width: 640px){
     .logo-box > a > img{
@@ -244,9 +256,8 @@
         padding: 8px 15px;
     }
     #tokenomic-sec{
-        background-image: url(../images/Earn-Passive-respon.png);
-        padding: 20px 0px 300px 0px;
         background-size: cover;
+        height: 500px;
     }
     .head-lightpaper > p{
         font-size: 14px;
@@ -305,6 +316,12 @@
 
     
 }
+@media(max-width: 280px){
+    #holder {
+        min-width: 260px;
+    }
+}
+
 
 
 

@@ -72,10 +72,10 @@ function changePickupStoreMenu(){
   
             <div className="header-c2">
               <ul className="menu-list-d">
-                      <li><a href="#">TRADE</a></li>
-                      <li><a href="#">EARN</a></li>
-                      <li><a href="#">VAULT</a></li>
-                      <li><a href="#">NFT</a></li>
+                      <li><a href="https://dex.knightswap.financial/#/swap">TRADE</a></li>
+                      <li><a href="https://app.knightswap.financial/farms">EARN</a></li>
+                      <li><a href="https://knightcompounder.com/#/bsc">VAULT</a></li>
+                      <li><a href="https://www.wizard.financial/marketplace">NFT</a></li>
                       
                   </ul>
             <div className="burger-area">
@@ -88,7 +88,8 @@ function changePickupStoreMenu(){
                   <p><img src={connect} className="connect-img" /> <span>$19.754</span></p>
                 </li>
                 <li>
-                  <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="#">Launch App</a></p>
+                  <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="https://app.knightswap.financial/
+                  ">Launch App</a></p>
                 </li>
               </ul>
             </div>
@@ -99,12 +100,12 @@ function changePickupStoreMenu(){
                   <button class="close-menu"><img src={crosss} className="img-close" /></button>
                 <ul className="menu-list2">
                 <li><a href="/">Home</a></li>
-                    <li><a href="#about-section" className="close-menu">TRADE</a></li>
-                    <li><a href="#about-section" className="close-menu">EARN</a></li>
-                    <li><a href="#about-section" className="close-menu">VAULT</a></li>
-                    <li><a href="#about-section" className="close-menu">NFT</a></li>
+                    <li><a href="https://dex.knightswap.financial/#/swap" className="close-menu">TRADE</a></li>
+                    <li><a href="https://app.knightswap.financial/farms" className="close-menu">EARN</a></li>
+                    <li><a href="https://knightcompounder.com/#/bsc" className="close-menu">VAULT</a></li>
+                    <li><a href="https://www.wizard.financial/marketplace" className="close-menu">NFT</a></li>
                     <li>
-                      <p className="connect-mobile"> <a href="#">Launch App</a></p>
+                      <p className="connect-mobile"> <a href="https://app.knightswap.financial/">Launch App</a></p>
                   </li>
                 </ul>
               </div>

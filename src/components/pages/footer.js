@@ -13,11 +13,10 @@ class Footer extends Component {
 		 <div className="footer-bg" id="footer-secs">
 			 <div className="container">	
 				 <ul className="footer-s-list">
-					<li><a href="http://www.babyobaby.club/" target="_blank"><img src={global} /></a></li>
-					<li><a href="https://twitter.com/BabyoBabytoken" target="_blank"><img src={sc2} /></a></li>
-					<li><a href="https://t.me/babyobabyofficial" target="_blank"><img src={sc3} /></a></li>
-					<li><a href="https://discord.gg/4BCpghJdQV" target="_blank"><img src={sc4} /></a></li>
-					<li><a href="https://medium.com/@babyobabytoken" target="_blank"><img src={mediums} /></a></li>
+				 <li><a href="https://bscscan.com/token/0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa" target="_blank"><img src={sc1} /></a></li>
+				 <li><a href="https://twitter.com/KnightEcosystem" target="_blank"><img src={sc2} /></a></li>
+				 <li><a href="https://t.me/knightswap" target="_blank"><img src={sc3} /></a></li>
+				 <li><a href="https://discord.com/invite/pvM2kQzv4C" target="_blank"><img src={sc4} /></a></li>
 				 </ul>
 				 <div className="footer-p">
 					<p>© Copyright 2021 BabyOBaby. All Rights Reserved.</p>
