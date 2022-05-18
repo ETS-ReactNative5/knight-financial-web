@@ -32,6 +32,12 @@ import Earn6 from '../../images/Earn_holder6.png';
 
 const Home2 = () => {
 
+    const [totalliquidity, setTotalliquidity] = useState([])
+    const [summary, setSummary] = useState([])
+
+    
+
+console.log(totalliquidity)
     useEffect(() => {
         $('.count').each(function () {
             $(this).prop('Counter', 0).animate({
@@ -48,19 +54,23 @@ const Home2 = () => {
 
     useEffect(() => {
         fetchData();
+       
 
-    })
-
-
-
+    },[])
 
 
     const fetchData = async () => {
-        let response = await axios.get("https://api.KnightSwap.financial/api/v2/summary")
-        console.log(response);
+        let response = await axios.get("https://api.KnightSwap.financial/api/v2/totalliquidity")
+        setTotalliquidity(response.data.data);
+        
     }
+   
 
+    
 
+    
+
+   
     return (
         <div>
             <div className="main-bg">
@@ -74,15 +84,18 @@ const Home2 = () => {
                                     <h3>Preeminent Defi Platform <br></br>on the BNB Chain</h3>
                                     <div className="wrp-trade-total">
                                         <div className="trade-totalbox">
-                                            <h3>$0.54</h3>
+                                        <h3>$0.5 </h3>
                                             <p>$KNIGHT Price</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                            <h3>$1.2M</h3>
+                                            {
+                                              
+                                                <h3>{parseFloat(totalliquidity.totalLiquidityUSD).toFixed(2)} </h3>
+                                            }
                                             <p>$Total Liquidity</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                            <h3>$5M</h3>
+                                        <h3>{parseFloat(totalliquidity.totalVolumeUSD).toFixed(2)} </h3>
                                             <p>Total Value</p>
                                         </div>
                                         <div className="trade-totalbox">
