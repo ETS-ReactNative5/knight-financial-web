@@ -10,7 +10,7 @@
         background-size: cover;
     }
     .border-b{
-        padding: 15px 52px;
+        padding: 15px 0px;
     }
     .million-box{
         padding: 15px;
@@ -44,14 +44,17 @@
     .head-lightpaper > h3 {
         font-size: 30px;
     }
+    .trade-content{
+        padding-right: 0px;
+    }
     .trade-content > h3 {
         font-size: 30px;
     }
     .providing-wrp {
         margin-bottom: 80px;
     }
-    #million-sec {
-        padding: 60px 0px 100px 0px;
+    .head-lightpaper >h3 >br{
+        display: none;
     }
     .trade-section {
         padding-top: 0px;
@@ -187,6 +190,10 @@
         background-size: cover;
        
     }
+    .trade-bg_wrap{
+        background-size: cover;
+        background-position: center;
+    }
 }
 @media(max-width: 640px){
     .banner-content > h3 > br{
@@ -224,11 +231,11 @@
     .banner-content > span{
         font-size: 18px;
     }
-    #million-sec{
-        background-image: url(../images/Use-By-Million-respon.png);
-        background-size: cover;
-        padding: 40px 0px 60px 0px;
+    
+    .trade-content{
+        padding-right: 0px;
     }
+    
     .million-content > h3,.trade-content > h3,.passive-content > h3,.head-lightpaper > h3{
         font-size: 24px;
         
@@ -247,7 +254,7 @@
         margin-top: 40px;
     }
     #lightpaper{
-        padding: 20px 0px 40px 0px;
+        padding: 40px 0px 40px 0px;
         background-size: cover;
     }
     .social-c-right{

@@ -150,7 +150,7 @@ p{
     z-index: 1;
 }
 .border-b{
-    padding: 20px 160px;
+    padding: 20px 0px;
     background-color: #fff0;
     position: absolute;
     width: 100%;
@@ -396,15 +396,23 @@ body.smr-open .slide-menu-right {
 /* million section css open here */
 
 #million-sec{
-    background-image: url(../images/Use-By-Million.png);
+    background-image: url(../images/bg011.png);
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: auto;
-    padding: 60px 0px 180px 0px;
+    padding: 0px 0px 1px 0px;
+}
+.trade-bg_wrap{
+    background-image: url(../images/bg013.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 85px 0px 190px 0px !important;
 }
 .providing-wrp {
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 .million-content > h3{
     font-weight: 600;
@@ -483,7 +491,7 @@ body.smr-open .slide-menu-right {
     
 }
 .trade-section{
-    padding-top: 160px;
+    padding-top: 130px;
     display: flex;
     justify-content: right;
 }
@@ -544,11 +552,13 @@ body.smr-open .slide-menu-right {
     min-width: 320px;
     width: 100%;
     padding-top: 70px;
+    text-align: center;
 }
 
 .image_holder{
-    width: 16.66%;
+    width: 150px;
     position: relative;
+    margin-left: 15px;
 }
 
 .passive-content > h3{
@@ -690,7 +700,6 @@ body.smr-open .slide-menu-right {
     display: flex;
     justify-content: space-between;
     padding-top: 220px;
-    padding: 220px 80px 0px 80px;
 }
 /* light paper page css closed here */
 

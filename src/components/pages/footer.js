@@ -10,17 +10,19 @@ import '../css/style.css'
 class Footer extends Component {
   render() {
 	 return (
-		 <div className="footer-bg" id="footer-secs">
-			 <div className="container">	
-				 <ul className="footer-s-list">
+		 <div >
+			 <div className="container">
+			 <div className="footer-social-wrp">	
+				 <ul className="footer-social-list">
 				 <li><a href="https://bscscan.com/token/0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa" target="_blank"><img src={sc1} /></a></li>
 				 <li><a href="https://twitter.com/KnightEcosystem" target="_blank"><img src={sc2} /></a></li>
 				 <li><a href="https://t.me/knightswap" target="_blank"><img src={sc3} /></a></li>
 				 <li><a href="https://discord.com/invite/pvM2kQzv4C" target="_blank"><img src={sc4} /></a></li>
 				 </ul>
-				 <div className="footer-p">
+				 <div className="social-c-right">
 					<p>© Copyright 2021 BabyOBaby. All Rights Reserved.</p>
 				</div>
+			 </div>
 			 </div>
 		 </div>
 

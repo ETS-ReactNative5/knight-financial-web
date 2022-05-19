@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route,Redirect} from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/home/home.js';
-import Home2 from './components/pages/home/home2';
+
+import Home from './components/pages/home/home';
 
 
 
@@ -18,8 +18,8 @@ class App extends Component {
     return (
 	<Router>
 		<div>				
-			<Route exact path="/home" name="Home Page" component = {Home} />
-			<Route exact path="/" name="Home Page" component = {Home2} />
+			
+			<Route exact path="/" name="Home Page" component = {Home} />
 			
 		</div>
 	</Router>

@@ -67,7 +67,7 @@ const priceData  = async () => {
 
   return(
     <div className="border-b">
-        <div className="">
+        <div className="container">
           <div className="header-box">
           <div className="header-c1">
               <div className="logo-box">
