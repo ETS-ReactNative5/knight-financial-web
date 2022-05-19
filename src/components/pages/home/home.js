@@ -217,10 +217,10 @@ class Home extends Component{
 					<div className="footer-social-wrp">
 							<div className="social-footer">
 									<ul className="footer-social-list">
-										<li><a href="https://undead.to" target="_blank"><img src={sc1} /></a></li>
-										<li><a href="https://twitter.com/UndeadFinance" target="_blank"><img src={sc2} /></a></li>
-										<li><a href="https://t.me/undeadtoken" target="_blank" target="_blank"><img src={sc3} /></a></li>
-										<li><a href="https://discord.gg/s5rpEmje" target="_blank"><img src={sc4} /></a></li>
+										<li><a href="https://bscscan.com/token/0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa" target="_blank"><img src={sc1} /></a></li>
+										<li><a href="https://twitter.com/KnightEcosystem" target="_blank"><img src={sc2} /></a></li>
+										<li><a href="https://t.me/knightswap" target="_blank"><img src={sc3} /></a></li>
+										<li><a href="https://discord.com/invite/pvM2kQzv4C" target="_blank"><img src={sc4} /></a></li>
 										
 									</ul>
 							</div>

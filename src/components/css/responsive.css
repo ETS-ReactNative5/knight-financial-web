@@ -1,6 +1,14 @@
 
 @media(max-width: 1166px){
-   
+    .wrp-trade-total{
+        flex-wrap: wrap;
+    }
+    #million-sec{
+        background-size: cover;
+    }
+    #banner-sec{
+        background-size: cover;
+    }
     .border-b{
         padding: 15px 52px;
     }
@@ -17,11 +25,19 @@
     .top-cractor-img {
         margin-left: 0px;
     }
-    .trade-totalbox {
-        padding: 15px 15px 15px 15px;
+ 
+    #tokenomic-sec{
+        background-size: cover;
+        
     }
 }
 @media(max-width: 992px){
+    .trade-totalbox{
+        margin-bottom: 20px;
+    }
+    #banner-sec{
+        background-size: cover;
+    }
     .million-content > h3 {
         font-size: 30px;
     }
@@ -51,9 +67,13 @@
     .passive-content > h3 {
         font-size: 30px;
     }
-    #tokenomic-sec {
-        padding: 0% 0% 33% 0%;
+    #tokenomic-sec{
+        background-size: cover;
+        padding: 60px 0px;
     }
+    /* #tokenomic-sec {
+        padding: 0% 0% 33% 0%;
+    } */
     .wrp-trade-total {
         justify-content: center;
     }
@@ -146,6 +166,9 @@
    
 }
 @media(max-width: 767px){
+    .trade-totalbox{
+        margin-right: 0px;
+    }
     .menu-list2 > li > a {
         font-weight: 400;
         font-size: 15px;
@@ -160,8 +183,15 @@
     .trade-section{
         text-align: center;
     }
+    #tokenomic-sec{
+        background-size: cover;
+       
+    }
 }
 @media(max-width: 640px){
+    .banner-content > h3 > br{
+        display: none;
+    }
     .logo-box > a > img{
         width: 130px;
     }
@@ -171,6 +201,7 @@
     .banner-content > h3{
         font-size: 24px;
         line-height: 30px;
+        margin-top: 10px;
     }
     .banner-content > p {
         font-size: 14px;
@@ -244,9 +275,8 @@
         padding: 8px 15px;
     }
     #tokenomic-sec{
-        background-image: url(../images/Earn-Passive-respon.png);
-        padding: 20px 0px 300px 0px;
         background-size: cover;
+        
     }
     .head-lightpaper > p{
         font-size: 14px;
@@ -287,8 +317,9 @@
     }
    
     .trade-totalbox{
-        width: 121px;
-        margin-bottom: 20px;
+        width: 150px;
+        background-size: 100% 100%;
+        height: auto;
     }
     .trade-totalbox {
         padding: 24px 15px 15px 15px;
@@ -305,6 +336,12 @@
 
     
 }
+@media(max-width: 280px){
+    #holder {
+        min-width: 260px;
+    }
+}
+
 
 
 
