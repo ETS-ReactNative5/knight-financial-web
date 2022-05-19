@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, Row } from 'reactstrap';
-
-import { ToastContainer } from 'react-toastify';
+import React, { Component, useEffect, useState } from 'react';
+import axios from 'axios';
 import '../css/style.css'
 import '../css/responsive.css'
 // import '../css/navbar.css'
@@ -14,52 +12,61 @@ import gcircle from '../images/gcircle.png';
 import crosss from '../images/crosss.png';
 
 
-class Header extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
+const Header = ()=>{
 
-  }
+  const [price, setprice] = useState([])
 
-  componentDidMount = () =>{
-   
-    
-
+  useEffect(() => {
     changePickupStoreMenu();
 
-function changePickupStoreMenu(){
- 
-    var body = $('body'),
-        mask = $('<div class="mask"></div>'),
-        toggleSlideRight = document.querySelector( ".toggle-slide-right" ),
-        slideMenuRight = document.querySelector( ".slide-menu-right" ),
-        activeNav = '';
-    ;
-    $('body').append(mask);
- 
-    /* slide menu right */
-    toggleSlideRight.addEventListener( "click", function(){
-        $('body').addClass("smr-open");
-        $('.mask').fadeIn();
-        activeNav = "smr-open";
-    } );
- 
-    /* hide active menu if close menu button is clicked */
-    $(document).on('click', ".close-menu", function(el,i){
-        $('body').removeClass(activeNav);
-        activeNav = "";
-        $('.mask').fadeOut();
-    });
- 
-}
-       
-            
-  }
+    function changePickupStoreMenu(){
+     
+        var body = $('body'),
+            mask = $('<div class="mask"></div>'),
+            toggleSlideRight = document.querySelector( ".toggle-slide-right" ),
+            slideMenuRight = document.querySelector( ".slide-menu-right" ),
+            activeNav = '';
+        ;
+        $('body').append(mask);
+     
+        /* slide menu right */
+        toggleSlideRight.addEventListener( "click", function(){
+            $('body').addClass("smr-open");
+            $('.mask').fadeIn();
+            activeNav = "smr-open";
+        } );
+     
+        /* hide active menu if close menu button is clicked */
+        $(document).on('click', ".close-menu", function(el,i){
+            $('body').removeClass(activeNav);
+            activeNav = "";
+            $('.mask').fadeOut();
+        });
+     
+    }
 
-	render(){
-		return(
-      <div className="border-b">
+})
+
+useEffect(() => {
+  priceData();
+
+},[])
+
+
+
+
+
+const priceData  = async () => {
+  let response = await axios.get("https://api.KnightSwap.financial/api/v2/tickers")
+  console.lo
+  setprice(JSON.parse(response.data["0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56_0xF606bd19b1E61574ED625d9ea96C841D4E247A32"].last_price));
+
+}
+
+
+
+  return(
+    <div className="border-b">
         <div className="">
           <div className="header-box">
           <div className="header-c1">
@@ -85,7 +92,7 @@ function changePickupStoreMenu(){
             <div className="header-c3">
               <ul className="connectlist">
                 <li>
-                  <p><img src={connect} className="connect-img" /> <span>$19.754</span></p>
+                  <p><img src={connect} className="connect-img" /> <span>{parseFloat(price).toFixed(2)}</span></p>
                 </li>
                 <li>
                   <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="https://app.knightswap.financial/
@@ -112,9 +119,9 @@ function changePickupStoreMenu(){
           
         </div>
       </div>
-		);
-	}
+  )
 }
+
 
 
 export default Header;

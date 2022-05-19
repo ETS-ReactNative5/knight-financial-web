@@ -117,6 +117,7 @@ p{
 }
 .connectlist > li > p > a:hover{
     color: #ffffff;
+    transform: translateY(-5px);
     background-image: linear-gradient(to right, #25384af5, #3f4965d1);
     transition: 0.5s;
 }
@@ -295,8 +296,8 @@ body.smr-open .slide-menu-right {
 
 /* home page css open here */
 .top-cractor-img{
-    margin-top: 100px;
-    margin-left: -45px;
+    margin-top: 145px;
+    text-align: center;
 }
 .top-cractor-img > img{
     width: 200px;
@@ -321,11 +322,10 @@ body.smr-open .slide-menu-right {
     letter-spacing: 1px;
 }
 .banner-content > h3{
-    font-family: 'Lemon/Milk Regular';
     font-style: normal;
     color: #fff;
-    font-size: 40px;
-    line-height: 50px;
+    font-weight: 700;
+    font-size: 47px;
 }
 .banner-content > p{
     font-size: 17px;
@@ -334,8 +334,8 @@ body.smr-open .slide-menu-right {
 }
 .btn-banner > a{
     color: #fff;
-    font-size: 17px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 8px 20px;
     border-radius: 32px;
     
 }
@@ -350,11 +350,16 @@ body.smr-open .slide-menu-right {
     
 }
 .buy-now{
+    display: inline-block;
     border: 1px solid #fff;
     margin-right: 15px;
     transition: .5s;
     background-image: linear-gradient(to right, #25384af5, #3f4965d1);
     
+}
+.buy-now:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
 .btn-banner{
     margin-top: 50px;
@@ -473,7 +478,7 @@ body.smr-open .slide-menu-right {
 .btn-trades > a{
     color: #ffffff;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 32px;
     
 }
@@ -493,18 +498,30 @@ body.smr-open .slide-menu-right {
     
 }
 .trade-now{
+    display: inline-block;
     border: 1px solid #ffffff;
     margin-right: 15px;
     transition: .5s;
     color: #fff! important;
+    transition: 0.5s;
     background-image: linear-gradient(to right, #25384ac2, #3f4965a8);
 }
+.trade-now:hover{
+    transition: 0.5s;
+    transform: translate(-5px);
+}
 .trade-now2{
+    display: inline-block;
     border: 1px solid #ffffff;
     margin-right: 15px;
     transition: .5s;
     color: #fff! important;
     background-color: #002D56;
+    transition: 0.5s;
+}
+.trade-now2:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
 }
 .trade-content > p{
     color: rgb(255, 255, 255);
@@ -517,10 +534,10 @@ body.smr-open .slide-menu-right {
 #tokenomic-sec{
     background-image: url(../images/Earn-Passive01.jpg);
     width: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 900px;
-    padding: 13% 0% 36% 0%;
+    height: auto;
+    padding: 120px 0px;
     position: relative;
 }
 #holder {
@@ -554,7 +571,7 @@ body.smr-open .slide-menu-right {
 .btn-explore > a{
     color: #ffffff;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 32px;
     
 }
@@ -570,11 +587,17 @@ body.smr-open .slide-menu-right {
     
 }
 .explore-now{
+    display: inline-block;
     border: 1px solid #ffffff;
     margin-right: 15px;
     transition: .5s;
     color: #fff! important;
     background-color: #3B208E;
+    transition: 0.5s;
+}
+.explore-now:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
 .btn-explore{
     margin-top: 40px;
@@ -624,7 +647,7 @@ body.smr-open .slide-menu-right {
 .btn-lightpaper> a{
     color: #002D56;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 32px;
 }
 
@@ -701,7 +724,7 @@ a:hover {
     margin-left: 0px;
 }
 .trade-totalbox{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .trade-totalbox:hover{
     -webkit-transform: translateY(-5px);
@@ -712,15 +735,15 @@ a:hover {
 .trade-totalbox{
     background-image: url(../images/bnrbox.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px 15px 15px 15px;
+    background-size: 100%;
+    padding: 35px 10px 35px 10px;
     width: 140px;
-    height: 110px;
+    height: auto;
     text-align: center;
 }
 .trade-totalbox > h3{
     font-weight: 900;
-    font-size: 16px;
+    font-size: 17px;
     color: #002D56;
 }
 .trade-totalbox > p{

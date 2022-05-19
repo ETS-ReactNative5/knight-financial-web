@@ -2,7 +2,7 @@ import React, { Component, useEffect, useState } from 'react';
 import axios from 'axios';
 import $ from "jquery";
 
-import Header from '../../pages/header.js';
+import Header from '../Header.js';
 import Footer from '../../pages/footer.js';
 import sc1 from '../../images/sc1.png';
 import sc2 from '../../images/sc2.png';
@@ -21,23 +21,29 @@ import user from '../../images/User.gif';
 import Trades from '../../images/Trades.gif';
 import Staked from '../../images/Staked.gif';
 
-import Earn1 from '../../images/Earn_holder1.png';
-import Earn2 from '../../images/Earn_holder2.png';
-import Earn3 from '../../images/Earn_holder3.png';
-import Earn4 from '../../images/Earn_holder4.png';
-import Earn5 from '../../images/Earn_holder5.png';
-import Earn6 from '../../images/Earn_holder6.png';
+// import Earn1 from '../../images/Earn_holder1.png';
+// import Earn2 from '../../images/Earn_holder2.png';
+// import Earn3 from '../../images/Earn_holder3.png';
+// import Earn4 from '../../images/Earn_holder4.png';
+// import Earn5 from '../../images/Earn_holder5.png';
+// import Earn6 from '../../images/Earn_holder6.png';
+import Earn1 from '../../images/1.gif';
+import Earn2 from '../../images/2.gif';
+import Earn3 from '../../images/3.gif';
+import Earn4 from '../../images/4.gif';
+import Earn5 from '../../images/5.gif';
+import Earn6 from '../../images/6.gif';
 
 
 
 const Home2 = () => {
 
     const [totalliquidity, setTotalliquidity] = useState([])
-    const [summary, setSummary] = useState([])
+    const [price, setprice] = useState([])
+   
+    console.log(price)
 
-    
 
-console.log(totalliquidity)
     useEffect(() => {
         $('.count').each(function () {
             $(this).prop('Counter', 0).animate({
@@ -53,16 +59,24 @@ console.log(totalliquidity)
     })
 
     useEffect(() => {
-        fetchData();
-       
+        DataTotalliquidity();
+        priceData();
 
     },[])
 
 
-    const fetchData = async () => {
+    const DataTotalliquidity = async () => {
         let response = await axios.get("https://api.KnightSwap.financial/api/v2/totalliquidity")
         setTotalliquidity(response.data.data);
         
+    }
+
+
+    const priceData  = async () => {
+        let response = await axios.get("https://api.KnightSwap.financial/api/v2/tickers")
+        console.lo
+        setprice(JSON.parse(response.data["0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56_0xF606bd19b1E61574ED625d9ea96C841D4E247A32"].last_price));
+
     }
    
 
@@ -84,7 +98,7 @@ console.log(totalliquidity)
                                     <h3>Preeminent Defi Platform <br></br>on the BNB Chain</h3>
                                     <div className="wrp-trade-total">
                                         <div className="trade-totalbox">
-                                        <h3>$0.5 </h3>
+                                        <h3>{parseFloat(price).toFixed(2)} </h3>
                                             <p>$KNIGHT Price</p>
                                         </div>
                                         <div className="trade-totalbox">
@@ -99,7 +113,7 @@ console.log(totalliquidity)
                                             <p>Total Value</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                            <h3>97</h3>
+                                        <h3>{totalliquidity.pairCount} </h3>
                                             <p>Total Pairs</p>
                                         </div>
                                     </div>
@@ -209,9 +223,10 @@ console.log(totalliquidity)
                                         </div>
                                     </div>
                                     <div id="holder">
-                                    <a href="https://www.wizard.financial/"><img className="image_holder" src={Earn1} /></a>
-                                    <a href="https://www.wolfdencrypto.com/"><img className="image_holder" src={Earn2} /></a>
-                                    <a href="https://app.knightswap.financial/"><img className="image_holder" src={Earn3} /></a>
+                                   
+                                    <a href="https://www.wizard.financial/"><img className="image_holder" src={Earn2} /></a>
+                                    <a href=" https://www.wolfdencrypto.com/"><img className="image_holder" src={Earn3} /></a>
+                                    <a href="https://app.knightswap.financial/"><img className="image_holder" src={Earn1} /></a>
                                     <a href=" https://www.wolfdencrypto.com/"><img className="image_holder" src={Earn4} /></a>
                                     <a href="https://spartacrypto.io/"><img className="image_holder" src={Earn5} /></a>
                                     <a href="https://forgefinance.io/"><img className="image_holder" src={Earn6} /></a>
