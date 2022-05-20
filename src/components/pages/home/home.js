@@ -34,6 +34,8 @@ import Earn4 from '../../images/4.gif';
 import Earn5 from '../../images/5.gif';
 import Earn6 from '../../images/6.gif';
 
+import Earn7 from '../../images/darknight.gif';
+
 
 
 const Home = () => {
@@ -194,7 +196,9 @@ const Home = () => {
                <section>
                <div className="trade-bg_wrap">
                <div className="container">
-               <div className="trade-section">
+               <div className="trade-section01">
+                       <div className="trade_imggif"><img src={Earn7} /></div>
+                       <div className="trade-section">
                        <a href="#">
                            <div className="trade-content">
                                <h3>Tired of Pushing Buttons to See <br></br> Your Portfolio Grow?
@@ -208,6 +212,7 @@ const Home = () => {
                                </div>
                            </div>
                        </a>
+                       </div>
                    </div>
                    </div>
                </div>

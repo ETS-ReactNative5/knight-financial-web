@@ -404,12 +404,12 @@ body.smr-open .slide-menu-right {
     padding: 0px 0px 1px 0px;
 }
 .trade-bg_wrap{
-    background-image: url(../images/tired_bg.gif);
+    background-image: url(../images/darknight01.png);
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: auto;
-    padding: 85px 0px 190px 0px !important;
+    padding: 95px 0px 65px 0px;
 }
 .providing-wrp {
     margin-bottom: 130px;
@@ -490,10 +490,19 @@ body.smr-open .slide-menu-right {
     border-radius: 32px;
     
 }
-.trade-section{
-    padding-top: 130px;
+.trade-section01{
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.trade-content{
+    margin-top: -40px;
+}
+.trade_imggif{
+    padding-left: 130px; 
+}
+.trade_imggif >img{
+    width: 200px;
 }
 .btn-trades > a:hover{
     -webkit-transform: translateY(-5px);
