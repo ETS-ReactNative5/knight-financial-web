@@ -194,6 +194,9 @@
         background-size: cover;
         background-position: center;
     }
+    .trade-bg_wrap{
+        padding: 85px 0px 85px 0px !important;
+    }
 }
 @media(max-width: 640px){
     .banner-content > h3 > br{

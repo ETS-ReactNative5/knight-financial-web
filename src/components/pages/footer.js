@@ -20,7 +20,7 @@ class Footer extends Component {
 				 <li><a href="https://discord.com/invite/pvM2kQzv4C" target="_blank"><img src={sc4} /></a></li>
 				 </ul>
 				 <div className="social-c-right">
-					<p>© Copyright 2021 BabyOBaby. All Rights Reserved.</p>
+					<p>2022 KNIGHT ALL rights reserved.</p>
 				</div>
 			 </div>
 			 </div>
