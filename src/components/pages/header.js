@@ -92,7 +92,7 @@ const priceData  = async () => {
             <div className="header-c3">
               <ul className="connectlist">
                 <li>
-                  <p><img src={connect} className="connect-img" /> <span>{parseFloat(price).toFixed(2)}</span></p>
+                  <p><img src={connect} className="connect-img" /> <span>{/*{parseFloat(price).toFixed(2)}*/}0.13</span></p>
                 </li>
                 <li>
                   <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="https://app.knightswap.financial/
