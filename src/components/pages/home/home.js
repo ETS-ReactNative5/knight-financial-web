@@ -77,7 +77,7 @@ const Home = () => {
     const priceData  = async () => {
         let response = await axios.get("https://api.KnightSwap.financial/api/v2/tickers")
         console.lo
-        setprice(JSON.parse(response.data["0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56_0xF606bd19b1E61574ED625d9ea96C841D4E247A32"].last_price));
+        setprice(JSON.parse(response.data["0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa_0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"].last_price));
 
     }
    
@@ -100,26 +100,26 @@ const Home = () => {
                                     <h3>Preeminent Defi Platform <br></br>on the BNB Chain</h3>
                                     <div className="wrp-trade-total">
                                         <div className="trade-totalbox">
-                                        {/*<h3>{parseFloat(price).toFixed(2)} </h3>*/}
-                                        <h3>0.13</h3>
+                                        <h3>{parseFloat(price).toFixed(2)} </h3>
+                                        {/*<h3>0.13</h3>*/}
                                             <p>$KNIGHT Price</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                            {/*{
+                                            {
                                               
                                                 <h3>{parseFloat(totalliquidity.totalLiquidityUSD).toFixed(2)} </h3>
-                                            }*/}
-                                            <h3>104509489.54</h3>
+                                            }
+                                            {/*<h3>104509489.54</h3>*/}
                                             <p>$Total Liquidity</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                        {/*<h3>{parseFloat(totalliquidity.totalVolumeUSD).toFixed(2)} </h3>*/}
-                                        <h3>786786610.09</h3>
+                                        <h3>{parseFloat(totalliquidity.totalVolumeUSD).toFixed(2)} </h3>
+                                        {/*<h3>786786610.09</h3>*/}
                                             <p>Total Volume</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                        {/*<h3>{totalliquidity.pairCount} </h3>*/}
-                                        <h3>120</h3>
+                                        <h3>{totalliquidity.pairCount} </h3>
+                                        {/*<h3>120</h3>*/}
                                             <p>Total Pairs</p>
                                         </div>
                                     </div>

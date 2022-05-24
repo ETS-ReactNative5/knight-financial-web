@@ -59,7 +59,7 @@ useEffect(() => {
 const priceData  = async () => {
   let response = await axios.get("https://api.KnightSwap.financial/api/v2/tickers")
   console.lo
-  setprice(JSON.parse(response.data["0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56_0xF606bd19b1E61574ED625d9ea96C841D4E247A32"].last_price));
+  setprice(JSON.parse(response.data["0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa_0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"].last_price));
 
 }
 
@@ -92,7 +92,7 @@ const priceData  = async () => {
             <div className="header-c3">
               <ul className="connectlist">
                 <li>
-                  <p><img src={connect} className="connect-img" /> <span>{/*{parseFloat(price).toFixed(2)}*/}0.13</span></p>
+                  <p><img src={connect} className="connect-img" /> <span>{parseFloat(price).toFixed(2)}</span></p>
                 </li>
                 <li>
                   <p className="btn-mrt"><img src={gcircle} className="connect-img2" /> <a href="https://app.knightswap.financial/
