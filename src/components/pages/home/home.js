@@ -100,22 +100,26 @@ const Home = () => {
                                     <h3>Preeminent Defi Platform <br></br>on the BNB Chain</h3>
                                     <div className="wrp-trade-total">
                                         <div className="trade-totalbox">
-                                        <h3>{parseFloat(price).toFixed(2)} </h3>
+                                        {/*<h3>{parseFloat(price).toFixed(2)} </h3>*/}
+                                        <h3>0.13</h3>
                                             <p>$KNIGHT Price</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                            {
+                                            {/*{
                                               
                                                 <h3>{parseFloat(totalliquidity.totalLiquidityUSD).toFixed(2)} </h3>
-                                            }
+                                            }*/}
+                                            <h3>104509489.54</h3>
                                             <p>$Total Liquidity</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                        <h3>{parseFloat(totalliquidity.totalVolumeUSD).toFixed(2)} </h3>
+                                        {/*<h3>{parseFloat(totalliquidity.totalVolumeUSD).toFixed(2)} </h3>*/}
+                                        <h3>786786610.09</h3>
                                             <p>Total Volume</p>
                                         </div>
                                         <div className="trade-totalbox">
-                                        <h3>{totalliquidity.pairCount} </h3>
+                                        {/*<h3>{totalliquidity.pairCount} </h3>*/}
+                                        <h3>120</h3>
                                             <p>Total Pairs</p>
                                         </div>
                                     </div>
