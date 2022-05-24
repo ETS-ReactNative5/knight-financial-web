@@ -41,7 +41,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "aws --profile ahmed --region us-east-1 s3 sync ./build s3://testui2   --delete"
+    "deploy": "aws --profile ahmed --region us-east-1 s3 sync ./build s3://knight.web   --delete"
 
   },
   "devDependencies": {
